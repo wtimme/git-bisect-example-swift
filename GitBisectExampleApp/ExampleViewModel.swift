@@ -11,6 +11,7 @@ import UIKit
 protocol ExampleViewModelDelegate: AnyObject {
     func changeTextLabelFont(to font: UIFont)
     func presentAlert(title: String)
+    func openWebView(url: URL)
 }
 
 final class ExampleViewModel {

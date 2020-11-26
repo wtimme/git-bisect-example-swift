@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
     
@@ -52,5 +53,11 @@ extension ViewController: ExampleViewModelDelegate {
         alertController.addAction(okayAction)
         
         present(alertController, animated: true)
+    }
+    
+    func openWebView(url: URL) {
+        let viewController = SFSafariViewController(url: url)
+        
+        present(viewController, animated: true)
     }
 }
