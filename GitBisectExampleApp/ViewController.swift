@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     
     private let viewModel = ExampleViewModel()
     
+    // MARK: View Lifecycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        title = viewModel.title
+    }
+    
     // MARK: Private methods
 
     @IBAction private func didTapPrimaryActionButton() {
