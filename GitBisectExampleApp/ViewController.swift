@@ -40,4 +40,13 @@ extension ViewController: ExampleViewModelDelegate {
     func changeTextLabelFont(to font: UIFont) {
         // TODO: Implement me.
     }
+    
+    func presentAlert(title: String) {
+        let alertController = UIAlertController(title: title, message: nil, preferredStyle: .alert)
+        
+        let okayAction = UIAlertAction(title: "Okay", style: .default, handler: nil)
+        alertController.addAction(okayAction)
+        
+        present(alertController, animated: true)
+    }
 }

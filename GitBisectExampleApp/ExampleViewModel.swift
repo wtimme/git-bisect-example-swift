@@ -10,6 +10,7 @@ import UIKit
 
 protocol ExampleViewModelDelegate: AnyObject {
     func changeTextLabelFont(to font: UIFont)
+    func presentAlert(title: String)
 }
 
 final class ExampleViewModel {
