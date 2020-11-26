@@ -67,7 +67,9 @@
                             <constraint firstAttribute="trailing" secondItem="qke-ft-5zT" secondAttribute="trailing" constant="9" id="Xxq-pH-PKK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="obz-8j-uZ3"/>
+                    <navigationItem key="navigationItem" id="obz-8j-uZ3">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="yt4-sn-sfl"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="textLabel" destination="b4e-lS-ZVF" id="Jjo-iK-J81"/>
                     </connections>
