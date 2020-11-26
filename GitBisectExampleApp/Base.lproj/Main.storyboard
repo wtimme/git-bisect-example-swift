@@ -33,24 +33,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qke-ft-5zT">
-                                <rect key="frame" x="8" y="88" width="397" height="401"/>
+                                <rect key="frame" x="8" y="88" width="397" height="426.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4e-lS-ZVF">
-                                        <rect key="frame" x="0.0" y="0.0" width="397" height="325"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4e-lS-ZVF">
+                                        <rect key="frame" x="0.0" y="0.0" width="397" height="350.5"/>
                                         <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus sit amet purus at convallis. Phasellus a lacus mauris. Nam pellentesque ipsum ac nisl commodo, at varius tellus iaculis. Mauris maximus mi vitae mi volutpat, nec fringilla nisi laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla et placerat purus. Aenean molestie bibendum molestie. Nunc luctus metus non nulla mattis, in sodales odio faucibus. Ut sagittis lacus at tortor placerat, a faucibus lorem iaculis. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sed arcu faucibus, lobortis ante vitae, commodo sem. Cras risus sapien, euismod eu malesuada at, aliquet sed massa. </mutableString>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcP-Eu-Xg5">
-                                        <rect key="frame" x="0.0" y="333" width="397" height="30"/>
+                                        <rect key="frame" x="0.0" y="358.5" width="397" height="30"/>
                                         <state key="normal" title="Primary Action"/>
                                         <connections>
                                             <action selector="didTapPrimaryActionButton" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="tgq-6C-pYX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E36-UM-PGn">
-                                        <rect key="frame" x="0.0" y="371" width="397" height="30"/>
+                                        <rect key="frame" x="0.0" y="396.5" width="397" height="30"/>
                                         <state key="normal" title="Secondary Action"/>
                                         <connections>
                                             <action selector="didTapSecondaryActionButton" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ZWJ-0Q-pgi"/>
