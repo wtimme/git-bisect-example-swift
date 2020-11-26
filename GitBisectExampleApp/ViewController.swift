@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     
     // MARK: Private properties
     
+    @IBOutlet private var textLabel: UILabel!
     private let viewModel = ExampleViewModel()
     
     // MARK: View Lifecycle
