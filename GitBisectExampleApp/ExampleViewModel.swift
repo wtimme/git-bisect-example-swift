@@ -12,7 +12,7 @@ protocol ExampleViewModelDelegate: AnyObject {
     func changeTextLabelFont(to font: UIFont)
 }
 
-struct ExampleViewModel {
+final class ExampleViewModel {
     let title: String
     
     weak var delegate: ExampleViewModelDelegate?
