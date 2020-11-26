@@ -27,6 +27,6 @@ final class ExampleViewModel {
     }
     
     func secondaryAction() {
-        print("Secondary action")
+        delegate?.presentAlert(title: "You have tapped the secondary action.")
     }
 }
