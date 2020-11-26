@@ -9,4 +9,8 @@ import Foundation
 
 struct ExampleViewModel {
     let title: String
+    
+    init(title: String = "My example app") {
+        self.title = title
+    }
 }
