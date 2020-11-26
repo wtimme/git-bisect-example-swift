@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         title = viewModel.title
+        
+        viewModel.delegate = self
     }
     
     // MARK: Private methods
@@ -34,3 +36,8 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: ExampleViewModelDelegate {
+    func changeTextLabelFont(to font: UIFont) {
+        // TODO: Implement me.
+    }
+}
