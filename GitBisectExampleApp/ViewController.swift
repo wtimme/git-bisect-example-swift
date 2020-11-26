@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    private let viewModel = ExampleViewModel()
 
     @IBAction private func didTapPrimaryActionButton() {
         print("Primary button tapped")
