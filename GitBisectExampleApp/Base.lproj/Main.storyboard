@@ -29,10 +29,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcP-Eu-Xg5">
                                         <rect key="frame" x="0.0" y="333" width="397" height="30"/>
                                         <state key="normal" title="Primary Action"/>
+                                        <connections>
+                                            <action selector="didTapPrimaryActionButton" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="tgq-6C-pYX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E36-UM-PGn">
                                         <rect key="frame" x="0.0" y="371" width="397" height="30"/>
                                         <state key="normal" title="Secondary Action"/>
+                                        <connections>
+                                            <action selector="didTapSecondaryActionButton" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ZWJ-0Q-pgi"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

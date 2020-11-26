@@ -9,6 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction private func didTapPrimaryActionButton() {
+        print("Primary button tapped")
+    }
+    
+    @IBAction private func didTapSecondaryActionButton() {
+        print("Secondary button tapped")
+    }
 
 }
 
