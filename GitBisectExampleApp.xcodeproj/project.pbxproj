@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A8B2CB3256FE0C90070CA45 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B2CB2256FE0C90070CA45 /* ExampleViewModel.swift */; };
 		9AF1CE8D256FD1CE00CBCDF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF1CE8C256FD1CE00CBCDF7 /* AppDelegate.swift */; };
 		9AF1CE8F256FD1CE00CBCDF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF1CE8E256FD1CE00CBCDF7 /* SceneDelegate.swift */; };
 		9AF1CE91256FD1CE00CBCDF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF1CE90256FD1CE00CBCDF7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A8B2CB2256FE0C90070CA45 /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
 		9AF1CE89256FD1CE00CBCDF7 /* GitBisectExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitBisectExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF1CE8C256FD1CE00CBCDF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AF1CE8E256FD1CE00CBCDF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				9AF1CE95256FD1CF00CBCDF7 /* Assets.xcassets */,
 				9AF1CE97256FD1CF00CBCDF7 /* LaunchScreen.storyboard */,
 				9AF1CE9A256FD1CF00CBCDF7 /* Info.plist */,
+				9A8B2CB2256FE0C90070CA45 /* ExampleViewModel.swift */,
 			);
 			path = GitBisectExampleApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF1CE91256FD1CE00CBCDF7 /* ViewController.swift in Sources */,
+				9A8B2CB3256FE0C90070CA45 /* ExampleViewModel.swift in Sources */,
 				9AF1CE8D256FD1CE00CBCDF7 /* AppDelegate.swift in Sources */,
 				9AF1CE8F256FD1CE00CBCDF7 /* SceneDelegate.swift in Sources */,
 			);
