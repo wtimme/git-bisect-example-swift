@@ -33,6 +33,10 @@ class ViewController: UIViewController {
     @IBAction private func didTapSecondaryActionButton() {
         print("test")
     }
+    
+    @IBAction private func didTapActionBarButtonItem() {
+        // TODO: Implement me.
+    }
 
 }
 
