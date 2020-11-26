@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction private func didTapActionBarButtonItem() {
-        // TODO: Implement me.
+        viewModel.presentHelpPage()
     }
 
 }

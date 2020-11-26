@@ -57,4 +57,10 @@ final class ExampleViewModel {
     func secondaryAction() {
         delegate?.presentAlert(title: "You have tapped the secondary action.")
     }
+    
+    func presentHelpPage() {
+        guard let url = URL(string: "https://example.com/") else { return }
+        
+        delegate?.openWebView(url: url)
+    }
 }
