@@ -68,7 +68,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="obz-8j-uZ3">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="yt4-sn-sfl">
+                        <barButtonItem key="rightBarButtonItem" title="Help" id="yt4-sn-sfl">
                             <connections>
                                 <action selector="didTapActionBarButtonItem" destination="BYZ-38-t0r" id="zhQ-lQ-Iqg"/>
                             </connections>
