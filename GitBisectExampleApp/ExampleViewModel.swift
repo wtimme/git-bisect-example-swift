@@ -20,4 +20,12 @@ final class ExampleViewModel {
     init(title: String = "My example app") {
         self.title = title
     }
+    
+    func primaryAction() {
+        print("Primary action")
+    }
+    
+    func secondaryAction() {
+        print("Secondary action")
+    }
 }

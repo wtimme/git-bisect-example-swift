@@ -27,11 +27,11 @@ class ViewController: UIViewController {
     // MARK: Private methods
 
     @IBAction private func didTapPrimaryActionButton() {
-        print("Primary button tapped")
+        viewModel.primaryAction()
     }
     
     @IBAction private func didTapSecondaryActionButton() {
-        print("Secondary button tapped")
+        viewModel.secondaryAction()
     }
 
 }
