@@ -18,12 +18,39 @@ final class ExampleViewModel {
     
     weak var delegate: ExampleViewModelDelegate?
     
+    private var currentTextStyle: UIFont.TextStyle = .body
+    
     init(title: String = "My example app") {
         self.title = title
     }
     
     func primaryAction() {
-        print("Primary action")
+        let allTextStyles: [UIFont.TextStyle] = [
+            .body,
+            .callout,
+            .caption1,
+            .caption2,
+            .footnote,
+            .subheadline,
+        ]
+        
+        guard let indexOfCurrentTextStyle = allTextStyles.firstIndex(of: currentTextStyle) else { return }
+        
+        let indexOfNextTextStyle: Int
+        if indexOfCurrentTextStyle + 1 == allTextStyles.count {
+            // This is the last text style in the list; start from the top.
+            indexOfNextTextStyle = 0
+        } else {
+            indexOfNextTextStyle = indexOfCurrentTextStyle + 1
+        }
+        
+        let nextTextStyle = allTextStyles[indexOfNextTextStyle]
+        
+        // Remember the text style.
+        self.currentTextStyle = nextTextStyle
+        
+        // Ask the delegate to update the label.
+        delegate?.changeTextLabelFont(to: UIFont.preferredFont(forTextStyle: nextTextStyle))
     }
     
     func secondaryAction() {

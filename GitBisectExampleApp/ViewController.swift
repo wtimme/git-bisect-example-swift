@@ -31,14 +31,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction private func didTapSecondaryActionButton() {
-        viewModel.secondaryAction()
+        print("test")
     }
 
 }
 
 extension ViewController: ExampleViewModelDelegate {
     func changeTextLabelFont(to font: UIFont) {
-        // TODO: Implement me.
+        textLabel.font = font
     }
     
     func presentAlert(title: String) {
