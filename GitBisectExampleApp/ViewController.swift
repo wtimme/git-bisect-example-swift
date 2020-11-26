@@ -9,7 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // MARK: Private properties
+    
     private let viewModel = ExampleViewModel()
+    
+    // MARK: Private methods
 
     @IBAction private func didTapPrimaryActionButton() {
         print("Primary button tapped")
