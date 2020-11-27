@@ -71,3 +71,9 @@ narrowing down the commits that still need to be tested until you find the first
 **Make sure that the tests are succeeding for every commit.** Being able to run the tests after Git has checked out a commit is a great and quick way to verify the code's state at that commit.
 
 **Try to keep your commits small and meaningful (atomical).** Even though this is considered best practise regardless of `git-bisect`, having smaller commits make it easier for you to tell whether a commit is `good` or `bad` in case you were not able to build the project successfully, since you might be able to tell from the diff.
+
+## License
+
+This project is published under the [MIT license][license].
+
+[license]: ./LICENSE.md
