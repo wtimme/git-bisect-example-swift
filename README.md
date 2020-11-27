@@ -1,4 +1,4 @@
-# git-bisect example app
+# git-bisect-example-swift
 
 This app serves as an example that can be used to demonstrate `git-bisect`.
 
