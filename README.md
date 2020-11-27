@@ -1,6 +1,6 @@
 # git-bisect-example-swift
 
-This app serves as an example that can be used to demonstrate `git-bisect`.
+This project, a Swift app for iOS, serves as an example that can be used to demonstrate `git-bisect`.
 
 ## Introduction
 
